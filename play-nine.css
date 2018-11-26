@@ -1,0 +1,31 @@
+.fa-star {
+	margin: 0.25em;
+  font-size: 20px;
+  color: orange;
+}
+
+span {
+	display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: lime;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+	background-color: black;
+  color: white;
+  cursor: not-allowed;
+}
+
+.used {
+	background-color: lightgrey;
+  color: grey;  
+  cursor: not-allowed;
+}
+
+.btn-default {
+	background-color: yellow;
+}
